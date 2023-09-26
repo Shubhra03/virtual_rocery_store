@@ -1,0 +1,51 @@
+.gparent {
+  display: grid;
+  grid-template-columns: repeat(1, 100%);
+  background-position: center;
+}
+
+.head {
+  color: #93C572;
+  font-size: 1.25rem; /* Increased font size */
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  margin: 1%;
+  background-color: white;
+}
+
+.img {
+  width: 100%;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(1, 50%);
+  gap: 20%;
+  margin-top: 5%;
+  padding: 30px;
+}
+
+.imgs {
+  height: 30px;
+  width: 30px;
+}
+
+.list2 {
+  display: grid;
+  grid-template-columns: repeat(2, 68%);
+  font-size: 0.875rem; /* Increased font size */
+}
+
+@media screen and (max-width: 768px) {
+  /* You can add responsive styles here */
+}
+
+/* Uncomment the following block if needed */
+
+.child1 {
+  margin-left: 5px; 
+}
+

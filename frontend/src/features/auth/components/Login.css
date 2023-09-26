@@ -1,0 +1,16 @@
+@media only screen and (max-width: 768px) { 
+   #main 
+   { 
+      width: 90%; 
+      height: 80%; 
+       
+       
+   } 
+   #pass 
+   { 
+      display: flex; 
+      flex-direction: row; 
+      gap: 2%; 
+   } 
+    
+ }

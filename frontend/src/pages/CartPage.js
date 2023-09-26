@@ -1,0 +1,11 @@
+import Cart from "../features/cart/Cart";
+import NavBar from "../features/navbar/Navbar";
+function CartPage() {
+    return <div className="bg-white">
+        <NavBar>
+        <Cart></Cart>
+        </NavBar>
+    </div>;
+}
+
+export default CartPage;
